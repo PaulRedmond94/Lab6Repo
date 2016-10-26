@@ -4,7 +4,7 @@ app = Flask(__name__)
 
 @app.route("/")
 def hello():
-  return "Hello flask Boyo"
+  return "Hello bubx"
 
 @app.route("/user/<username>")
 def show_user(username):
